@@ -1,7 +1,7 @@
 // SEGURIDAD: Si no se encuentra en localStorage info del usuario
 // no lo deja acceder a la página, redirigiendo al login inmediatamente.
 if (!localStorage.jwt) {
-  location.replace('index.html');
+  location.replace('./index.html');
 }
 
 
