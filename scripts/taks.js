@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
     if (cerrarSesion) {
       //limpiamos el localstorage y redireccioamos a login
       localStorage.clear();
-      location.replace('/index.html');
+      location.replace('./index.html');
     }
   });
 
