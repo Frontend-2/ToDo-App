@@ -34,7 +34,7 @@ window.addEventListener('load', function () {
 
 
     /* -------------------------------------------------------------------------- */
-    /*                     FUNCIÓN 2: Realizar el login [GET]                     */
+    /*                     FUNCIÓN 2: Realizar el login [POST]                     */
     /* -------------------------------------------------------------------------- */
     function realizarLogin(settings) {
         console.log("Lanzando la consulta a la API...");
