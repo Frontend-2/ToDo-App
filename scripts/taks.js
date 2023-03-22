@@ -8,8 +8,8 @@ if (!localStorage.jwt) {
 /* ------ comienzan las funcionalidades una vez que carga el documento ------ */
 window.addEventListener('load', function () {
 
-  const urlTareas = 'https://ctd-todo-api.herokuapp.com/v1/tasks';
-  const urlUsuario = 'https://ctd-todo-api.herokuapp.com/v1/users/getMe';
+  const urlTareas = 'https://todo-api.ctd.academy/tasks';
+  const urlUsuario = 'https://todo-api.ctd.academy/users/getMe';
   const token = JSON.parse(localStorage.jwt);
 
   const formCrearTarea = document.querySelector('.nueva-tarea');
